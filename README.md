@@ -2,7 +2,8 @@
 
 ## Objective
 
-Structure raw content using **semantic HTML elements only**, then style it using **CSS that targets semantic elements only**.
+Structure raw content using **semantic HTML elements only**, then style it using
+**CSS that targets semantic elements only**.
 
 ---
 
