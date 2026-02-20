@@ -7,7 +7,7 @@
 
 body {
   background-color: #FAFAFA;
-  padding: 40px 0;
+  padding: 10px 0;
 }
 
 body > header {
@@ -19,12 +19,13 @@ body > header {
 
 hgroup {
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
 
 hgroup h1 {
   color: #333;
-  font-size: 50px;
+  font-size: 55px;
+  font-weight: 600;
 }
 
 hgroup p {
@@ -39,7 +40,7 @@ p {
 
 nav ul {
   height: 60px;
-  background-color: #44444E;
+  background-color: #31511E;
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
@@ -51,10 +52,38 @@ nav ul li a {
   color: #FAFAFA;
   padding: 2px 5px;
   text-decoration: none;
+  font-weight: 300;
 }
 
 nav ul li a:hover {
   background-color: #FAFAFA;
-  color: #44444E;
+  color: #31511E;
   border-radius: 2px;
+}
+
+main {
+  margin: 20px 150px;
+}
+
+main article header {
+  padding-bottom: 20px;
+}
+
+main article header h2 {
+  color: #333;
+  font-size: 30px;
+  font-weight: 400;
+  padding-bottom: 3px;
+}
+
+main article header p {
+  font-size: 16px;
+}
+
+main article p {
+  font-size: 20px;
+}
+
+img {
+  width: 100%;
 }
