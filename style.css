@@ -67,7 +67,7 @@ main {
 main > aside {
   background-color: hsl(124, 87%, 15%);
   width: 25%;
-  height: 100vh;
+  height: 500px;
 }
 
 main aside > h2 {
@@ -106,7 +106,7 @@ main > article p {
 }
 
 img {
-  width: 60%;
+  width: 100%;
 }
 
 main > article > section > header > h3 {
@@ -127,7 +127,7 @@ figure {
 }
 
 figure > figcaption {
-  padding-left: 15%;
+  text-align: center;
   font-style: italic;
   color: #333;
 }
@@ -179,4 +179,15 @@ body > footer > address > p > a {
   text-decoration: none;
   font-size: 16px;
   color: #FAFAFA;
+}
+
+main > article > footer > h3 {
+  font-size: 25px;
+  color: #333;
+  font-weight: 600;
+}
+
+main > article > p {
+  padding-bottom: 25px;
+  border-bottom: 1px solid black;
 }
